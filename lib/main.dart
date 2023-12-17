@@ -16,6 +16,8 @@ class MyApp extends StatelessWidget {
 }
 
 class MyWebView extends StatefulWidget {
+  const MyWebView({super.key});
+
   @override
   _MyWebViewState createState() => _MyWebViewState();
 }
